@@ -27,7 +27,7 @@ nav{
 }
 
 .vicky ul li a {
-    color: white;
+    color:white;
     text-decoration: none;
     font-size: 16px;
 
@@ -36,8 +36,8 @@ nav{
 .vicky ul li::after{
 content: '';
 width: 0%;
-height: 2px;
-background: rgb(236, 182, 217);
+height: 3px;
+background:rgba(15, 15, 15, 0.705);
 display: block;
 margin: auto;
 transition: 0.5s;
@@ -48,7 +48,7 @@ transition: 0.5s;
 .top{
     min-height: 100vh;
     width: 100%;
-    background-image: url("../../images/ocean.jpg");
+    background-image: url("../../images/ocean1.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -62,7 +62,7 @@ transition: 0.5s;
 }
 .lucky{
     width: 90%;
-    color: white;
+    color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,13 +75,13 @@ transition: 0.5s;
 }
 .lucky p{
     margin: 10px 0 40px;
-    color: white;
+    color: black;
 }
 .anurag1{
     position: relative;
     cursor: pointer;
     font-size: 14PX;
-    background: transparent;
+    background: rgb(163, 160, 160);
     border-radius: 15px;
     display: inline-block;
     text-decoration: none;
@@ -94,7 +94,7 @@ transition: 0.5s;
     
 }
 .anurag1:hover{
-    border: 1px solid rgb(236, 182, 217);
+    border: 1px solid black; /*rgb(236, 182, 217);*/
     background: rgba(15, 15, 15, 0.705);
     transition: 0.5s;
 }
@@ -137,7 +137,7 @@ h1{
     position: absolute;
     top: 0%;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .layer:hover{

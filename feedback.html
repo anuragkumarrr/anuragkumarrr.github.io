@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBacK</title>
+    <style>
+
+
+.Z{ 
+    
+ position: relative;width: 350px;
+    height:570px;border-radius: 6px;
+    top: 22vh; left: 30vw;
+box-shadow:5px 5px 5px 5px black;background-color: transparent;
+color:white
+}
+
+body{
+    background-image: url(bb.jpg);  min-height: 100vh;
+    width: 100%; background-position:center;
+    background-size:cover; position: relative;
+    color: white;}
+form input{
+    width: 95%; height: 50px;
+    margin: 4px 4px;  border: 2px solid rgb(27, 25, 25);
+    border-radius: 5px;  background: #181717;
+    font-size: 17px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+   text-align: center;
+}
+form textarea{padding: 5px 15px;
+border: 2px solid black;border-radius: 4px;
+background: #181717;font-size: 20px;
+width: 88%;margin: 4px 4px 6px 4px;
+color:white;
+}
+h1{padding:20px 0;
+    text-align: center;
+    background-color:rgb(167, 159, 159);
+    border-radius: 8px;
+    font-family: cursive;
+    color: white;
+    
+   
+}
+form #btn{
+    background:aqua;
+    cursor: pointer;
+    width: 97%;
+   font-size: 18px;
+   opacity:0.6;
+   
+}
+
+
+form #btn:hover
+{
+    background-color:rgb(167, 159, 159);
+}
+form h1{
+    border: 2px solid black;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="Z">
+       <form action="post">
+           <h1>Send Your Feedback!</h1>
+           <nav class="name">
+        <input class="X"type="name" placeholder="Enter your name">
+           </nav>
+    <nav class="email">
+        <input class="X" type="email" placeholder="Enter your email">
+       </nav>
+    <textarea class="X" name="feedback" id="feedback" cols="30" rows="10" placeholder="Give your Feedback"></textarea>
+     <button  id="btn" onclick="myFunction()">SEND</button> 
+  </form>
+    </nav>
+
+
+
+    <script>
+        function myFunction() {
+          alert("your response has successfully submited.");
+        }
+        </script>
+</body>
+</html>
